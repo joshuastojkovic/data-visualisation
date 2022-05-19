@@ -15,7 +15,7 @@ def option_1(choice):
 
 def data_selection():
 
-    choice = input("please choose a conversion rate too view, GBP - EUR, EUR - GBP, GBP - AUD, AUD - GBP, GBP - JPY, JPY - GBP: ")
+    choice = input("please choose some conversion rate too view:\nGBP - EUR, EUR - GBP, GBP - AUD, AUD - GBP, GBP - JPY, JPY - GBP\n: ")
     if choice != int:
         option_1(choice)
     else:
@@ -23,3 +23,4 @@ def data_selection():
 
 
 data_selection()
+
